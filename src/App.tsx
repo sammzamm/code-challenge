@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
 import HeaderComponent from './HeaderComponent/HeaderComponent';
+import DataDashboardComponent from './DataDashboardComponent/DataDashboardComponent';
 import MapComponent from './MapComponent/MapComponent';
 import PowerOutputComponent from './PowerOutputComponent/PowerOutputComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <HeaderComponent />
-      <MapComponent />
       <PowerOutputComponent />
+      <DataDashboardComponent />
+      <MapComponent />
       <FooterComponent />
     </div>
   );

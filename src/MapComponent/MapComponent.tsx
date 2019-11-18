@@ -2,9 +2,8 @@ import React from 'react';
 import './MapComponent.css';
 import { GoogleMap, LoadScript } from '@react-google-maps/api'
 
-// const AnyReactComponent = ({text}: any) => <div>{text}</div>;
 
-const MapComponent: React.FC = () => {
+const MapComponent : React.FC = () => {
   return (
     <div className="map-container">
       <h2>Map</h2>
